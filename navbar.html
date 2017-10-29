@@ -1,0 +1,110 @@
+<!--updated the navbar so that it includes a dropdown-->
+<!--created by sarah twomey on 10/27/17
+    exploration 2 for cs4830-->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Exploration 3</title>
+        
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+        
+        <style>
+            .bg-img { 
+                background-image: url(Images/cat.jpg) ;
+                background-position: center center;
+                background-repeat:  no-repeat;
+                background-attachment: fixed;
+                background-size:  cover;
+                background-color: #999;
+
+            }
+            
+            .slides {
+                float: right;
+            }
+        </style>
+        
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.5.2/css/bulma.css">
+        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/morris.js/0.5.1/morris.css">
+    </head>
+    
+    <body>
+        <!--working-->
+        <section class="hero is-primary is-large header-image">
+            <nav class="navbar" role="navigation" aria-label="dropdown navigation">
+                  <div class="navbar-item has-dropdown is-hoverable">
+                    <a class="navbar-link">
+                      More
+                    </a>
+                    
+                    <div class="navbar-dropdown">
+                      <a class="navbar-item" href="challenge1.html">Exploration 1</a>
+                      <a class="navbar-item" href="challenge2.html">Exploration 2</a>
+                    </div>
+                  </div>
+                  <div class="navbar-item">
+                     <a class="navbar-item" href="navbar.html">Exploration 3</a>
+                  </div>  
+                
+                </nav>
+        </section>
+        
+        
+        
+        <section class="hero is-primary is-large header-image">
+            <div class="slides">
+                  <ol class="slide-indicators">
+                    <li class="is-active"></li>
+                    <li></li>
+                    <li></li>
+                  </ol>
+                  <div class="slide-item is-active">
+                    <img class="slide-image" src="wyoming.jpg" alt="Slide 1" width="33%">
+                    <img class="slide-image" src="floattrip.jpg" alt="Slide 1" width="33%">
+                    <img class="slide-image" src="bonnaroo.jpg" alt="Slide 1" width="33%">
+                  </div>
+            </div>
+        </section>
+        
+        <section class="hero is-primary is-large header-image">
+            <br><br><br>
+            <h1 class="title is-2">I created a new Nav bar with a new dropdown function. I like this more than the original one I made because it makes the webpage look cleaner. I also messed around with images in a div.</h1>
+            <br>
+            <h1 class="title is-2">Here is another login form that could be utilized</h1>
+            
+            <div class="container">
+      <div class="columns">
+      <div class="column is-8 is-offset-2">
+          <div class="login-form">
+          <p>Example login form</p>
+          <p class="control has-icon has-icon-right">
+          <input class="input email-input" type="text" placeholder="jsmith@example.org">
+          <span class="icon user">
+              <i class="fa fa-user"></i>
+          </span>
+           </p>
+          <p class="control has-icon has-icon-right">
+          <input class="input password-input" type="password" placeholder="●●●●●●●">
+           <span class="icon user">
+               <i class="fa fa-lock"></i>
+            </span>
+            </p>
+             <p class="control login">
+            <button class="button is-outlined is-large">Login</button>
+             </p>
+        </div>
+        </div>
+          </div>
+            </div>
+        </section>
+        
+       
+    
+    </body>
+    
+</html>
